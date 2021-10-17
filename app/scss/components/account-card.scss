@@ -16,14 +16,17 @@
 		background-color: var(--white);
 		box-shadow: 0px 10px 20px -4px var(--shadow);
 	}
+
 	&-img {
 		max-width: 70px;
 		border-radius: 50%;
 		margin-bottom: 15px;
 	}
+
 	&-name {
 		margin-bottom: 15px;
 	}
+
 	&-btn {
 		display: inline-block;
 		color: var(--dark);
