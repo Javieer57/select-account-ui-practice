@@ -13,7 +13,7 @@ for (var i = 0; i < accountBtn.length; i++) {
 	});
 	
 	accountBtn[i].addEventListener('focusout', function () {
-		this.classList.toggle("active");
-		this.nextElementSibling.classList.toggle("show");
+		this.classList.remove("active");
+		this.nextElementSibling.classList.remove("show");
 	});	
 }
