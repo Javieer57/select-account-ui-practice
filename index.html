@@ -4,13 +4,84 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+		<!-- Mulish Font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;700&display=swap" rel="stylesheet" />
+
+		<!-- Feather Icons -->
+		<script src="https://unpkg.com/feather-icons"></script>
+
 		<!-- CSS & Normalize -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
-		<link rel="stylesheet" href="/dist/style.css" />
+		<link rel="stylesheet" href="./dist/styles.css" />
 
 		<!-- JS -->
-		<script defer src="/dist/script.js"></script>
-		<title></title>
+		<script defer src="./dist/script.js"></script>
+		<title>Select account</title>
 	</head>
-	<body></body>
+	<body>
+		<div class="container">
+			<div class="content">
+				<div class="header">
+					<h2 class="headline-2">Select your profile</h2>
+					<p class="paragraph">Logged in users can view full business profiles and can save contact details.</p>
+				</div>
+
+				<div class="accounts-container">
+					<div class="account">
+						<div class="account-wrapper">
+							<img src="./app/img/profile_1.jpg" alt="" class="account-img" />
+							<p class="account-name small">Nora Stanton</p>
+
+							<div class="dropdown">
+								<button class="account-btn">
+									<i data-feather="more-horizontal"></i>
+								</button>
+
+								<div class="dropdown-content">
+									<a class="account-settings small-light" href="javascript:;">
+										<i data-feather="edit-3"></i>
+										Edit
+									</a>
+									<a class="account-settings small-light" href="javascript:;">
+										<i data-feather="trash-2"></i>
+										Delete
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="account">
+						<div class="account-wrapper">
+							<img src="./app/img/profile_2.jpg" alt="" class="account-img" />
+							<p class="account-name small">Mary Kyles</p>
+
+							<div class="dropdown">
+								<button class="account-btn">
+									<i data-feather="more-horizontal"></i>
+								</button>
+
+								<div class="dropdown-content">
+									<a class="account-settings small-light" href="javascript:;">
+										<i data-feather="edit-3"></i>
+										Edit
+									</a>
+									<a class="account-settings small-light" href="javascript:;">
+										<i data-feather="trash-2"></i>
+										Delete
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<button class="add-account">
+						<i data-feather="plus"></i>
+					</button>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>

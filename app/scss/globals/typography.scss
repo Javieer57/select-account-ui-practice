@@ -1,4 +1,4 @@
-@use '../util' as *;
+@use "../util" as *;
 
 h1,
 h2,
@@ -11,4 +11,34 @@ a,
 a:visited,
 a:active {
 	text-decoration: none;
+}
+
+.headline-2 {
+	font-weight: bold;
+	font-size: rem(26);
+	line-height: 33px;
+	color: var(--dark);
+	margin-bottom: 20px;
+}
+
+.paragraph {
+	font-weight: bold;
+	font-size: rem(16);
+	line-height: 20px;
+	color: var(--dark);
+	margin-bottom: 90px;
+}
+
+.small {
+	font-weight: bold;
+	font-size: rem(12);
+	line-height: 15px;
+	color: var(--dark);
+}
+
+.small-light {
+	font-weight: lighter;
+	font-size: rem(12);
+	line-height: 15px;
+	color: var(--dark);
 }
